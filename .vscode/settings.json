@@ -89,7 +89,7 @@
       "panelTitle.activeBorder": "#f5f6f7"
     }
   },
-  "workbench.iconTheme": null,
+  "workbench.iconTheme": "vscode-icons",
   "workbench.statusBar.visible": false,
   "workbench.tips.enabled": false,
   "workbench.tree.renderIndentGuides": "none",
