@@ -14,3 +14,5 @@ rm student.sql
 pg_dump --clean --create --inserts --username=freecode students > students.csv
 pg_dump --clean --create --inserts --username=freecode students > students.sql
 pg_dump --clean --create --inserts --username=freecodecamp students > students.sql
+git status
+git add .
