@@ -1,9 +1,13 @@
+SELECT pg_terminate_backend(pg_stat_activity.pid)
+FROM pg_stat_activity
+WHERE usename = 'freecodecamp';
+
 --
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 12.22 (Ubuntu 12.22-0ubuntu0.20.04.4)
--- Dumped by pg_dump version 12.22 (Ubuntu 12.22-0ubuntu0.20.04.4)
+-- Dumped from database version 12.6 (Debian 12.6-1.pgdg90+1)
+-- Dumped by pg_dump version 12.6 (Debian 12.6-1.pgdg90+1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -16,7 +20,7 @@ SET xmloption = content;
 SET client_min_messages = warning;
 SET row_security = off;
 
-DROP DATABASE students;
+DROP DATABASE IF EXISTS students;
 --
 -- Name: students; Type: DATABASE; Schema: -; Owner: freecodecamp
 --
